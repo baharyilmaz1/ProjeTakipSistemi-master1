@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="baltanesi.com.projetakipsistemi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GirisActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KayitActivity" />
+        <activity
+            android:name=".Ogrenci.OgrenciAnasayfaActivity"
+            android:label="@string/title_activity_ogrenci_anasayfa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ogretmen.OgretmenAnasayfaActivty"
+            android:label="@string/title_activity_ogretmen_anasayfa_activty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProjeOnermeActivity" />
+        <activity android:name=".ProjeOneriDetayActivity" />
+        <activity android:name=".Ogretmen.OgrenciProjeDetayActivity" />
+        <activity android:name=".Ogretmen.HerOgrenciProjeDetayActivity" />
+        <activity android:name=".Ogretmen.ProjeIstekleriActivity" />
+        <activity android:name=".Ogretmen.ProjeIstekleriDetayActivity" />
+        <activity android:name=".Ogrenci.KendiProjeDetayActivity" />
+        <activity android:name=".ProjeOneriListActivity" />
+        <activity android:name=".Ogrenci.OgrenciYaptigiProjeDetayiGor"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Proje Takip Sistemi</string>
+    <string name="title_activity_ogrenci_anasayfa">OgrenciAnasayfaActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ogretmen_anasayfa_activty">OgretmenAnasayfaActivty</string>
+</resources>

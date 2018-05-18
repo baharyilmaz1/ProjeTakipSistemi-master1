@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="baltanesi.com.projetakipsistemi.ProjeOneriDetayActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/projeOneren"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proje Oneren" />
+
+            <TextView
+                android:id="@+id/txtProjeAdi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proje Adı" />
+
+            <TextView
+                android:id="@+id/txtProjeDetayı"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content"
+                android:text="Proje Detayı" />
+
+            <Button
+                android:id="@+id/btnProjeyiSec"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Projeyi Seç
+" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
